@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.burger {
+    color: green;
+    border: 2px dotted black;
+}
+
+#ingredients {
+    color: green;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+#customerinformation {
+    background-color: black;
+    color: white;
+}
+
+.customerinformation {
+    border: 2px dotted blue;
+}
+
+section {
+    margin: 5%;
+    padding: 5%;
+}
+
+header {
+    color: bisque;
+    text-align: center;
+    padding: 5%;
+    opacity: 0.7;
+}
+
+button {
+    margin-top: 5%;
+}
+
+#header-container {
+    height: 400px;
+    /* Set the desired cropped height */
+    overflow: hidden;
+}
+
+#headerpic {
+    width: 100%;
+    height: auto
+}
+
+h1 {
+    position: absolute;
+    /* Set the h1 to absolute positioning */
+    top: 50%;
+    /* Position it at the vertical center */
+    left: 0;
+    /* Align it to the left edge */
+    right: 0;
+    /* Align it to the right edge */
+    transform: translateY(-50%);
+    /* Center it vertically */
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 6vw;
+    }
+}
