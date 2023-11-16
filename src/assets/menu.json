@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Halloumi Dream Burger",
+        "calories": "620 kcal",
+        "lactose": true,
+        "gluten": false,
+        "img": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF191118_R12_W03_SE_R0058-2_Main_low-21406f39.jpg",
+        "price": "120 SEK"
+    },
+    {
+        "name": "Green Plant Beef Burger",
+        "calories": "500 kcal",
+        "lactose": true,
+        "gluten": true,
+        "img": "https://img.hellofresh.com/hellofresh_s3/image/HF200907_R08_W44_SE_F12343746-3_KB_Main_low-db6a629a.jpg",
+        "price": "100 SEK"
+    },
+    {
+        "name": "Spicy Vegan Burger",
+        "calories": "570 kcal",
+        "lactose": false,
+        "gluten": true,
+        "img": "https://www.korvbrodsbagarn.se/siteassets/receptbilder/spicy-hawaii-vegoburgare.jpg",
+        "price": "110 SEK"
+    }
+]
